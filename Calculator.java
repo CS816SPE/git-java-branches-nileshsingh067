@@ -33,7 +33,9 @@ public class Calculator {
             case '/':
                 result = first / second;
                 break;
-
+	   case '^': 
+		result =first ^ second;
+		break;
             // operator doesn't match any case constant (+, -, *, /)
             default:
                 System.out.printf("Error! operator is not correct");
