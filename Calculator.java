@@ -21,7 +21,7 @@ public class Calculator {
             case '+':
                 result = first + second;
                 break;
-/*
+
             case '-':
                 result = first - second;
                 break;
@@ -32,7 +32,7 @@ public class Calculator {
 
             case '/':
                 result = first / second;
-                break;*/
+                break;
 
             // operator doesn't match any case constant (+, -, *, /)
             default:
